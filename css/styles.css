@@ -28,11 +28,23 @@ body {
 .header-contacts {
 }
 .header-adress {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
 }
 .header-tel {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 /* identical to box height, or 150% */
 
 letter-spacing: 0.02em;
