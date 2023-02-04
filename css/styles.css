@@ -2,6 +2,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
 .header {
 }
 .header-novigation {
@@ -57,7 +58,13 @@ color: #434455;
 }
 
 .commercial {
-    
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+/* or 107% */
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 
 .btn {
@@ -76,6 +83,20 @@ border-radius: 4px;
 .peculiarities-column {
 }
 .peculiarities-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: #2E2F42;
 }
 .peculiarities-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
 }
