@@ -17,7 +17,7 @@ padding: 0px;
 .header-list {
 }
 .header-link {
-    ont-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* identical to box height, or 150% */
