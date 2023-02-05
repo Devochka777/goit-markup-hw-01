@@ -98,7 +98,7 @@ background: #404BBF;
     
 }
 .peculiarities-subtitle {
-font-weight: 500;
+
 font-size: 20px;
 line-height: 1.2;
 /* identical to box height, or 120% */
@@ -107,7 +107,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .peculiarities-text {
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 /* or 150% */
@@ -120,7 +120,7 @@ color: #434455;
 
 }
 .boing-subtitle {
-font-weight: 700;
+
 font-size: 36px;
 line-height: 1.11;
 /* identical to box height, or 111% */
@@ -163,7 +163,7 @@ align-items: flex-start;
 padding: 0px;
 }
 .footer-text {
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 /* or 150% */
