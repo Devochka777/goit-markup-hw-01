@@ -87,7 +87,9 @@ border-radius: 4px;
 }
 .hero-btn:is(:hover,:focus)
 {
-background: #404BBF;
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .peculiarities-list {
