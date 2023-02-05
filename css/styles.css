@@ -25,7 +25,7 @@ padding: 0px;
     /* NAVY BLUE */
     color: #2E2F42;
 }
-.header-list:hover{
+.header-link:hover{
     color:#404BBF; 
 }
 .header-item {
