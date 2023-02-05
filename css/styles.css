@@ -2,6 +2,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
+/*----------------------------------------------------------HEADER-------------*/
 .header {
 }
 .header-novigation {
@@ -60,8 +62,8 @@ letter-spacing: 0.02em;
 /* SLATE */
 color: #434455;
 }
-
-.commercial {
+/*--------------------------------COMMERCIAL------------------------------*/
+.commercial-title {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -70,6 +72,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
+
 
 .btn {
 display: flex;
@@ -86,10 +89,10 @@ border-radius: 4px;
 {
 background: #404BBF;
 }
-
+/*------------------------------PECULISRITIES--------------------*/
 .peculiarities-list {
 }
-.peculiarities-column {
+.peculiarities-item {
 }
 .peculiarities-subtitle {
 font-weight: 500;
@@ -109,7 +112,10 @@ letter-spacing: 0.02em;
 /* SLATE */
 color: #434455;
 }
+/*------------------------------------------BOING-----------------------*/
+.boing{
 
+}
 .boing-subtitle {
 font-weight: 700;
 font-size: 36px;
@@ -122,11 +128,16 @@ text-transform: capitalize;
 /* NAVY BLUE */
 color: #2E2F42;
 }
+
 .boing-list {
 }
 .boind-item {
 }
-.tram-subtitle {
+/*--------------------------------------------------TEAM---------------------------*/
+.team{
+
+}
+.team-subtitle {
 }
 .team-list {
 }
@@ -137,6 +148,10 @@ color: #2E2F42;
 .team-surname {
 }
 .team-text {
+}
+/*---------------------------------------------------FOOTER-----------------------*/
+.footer{
+
 }
 .footer-logo {
 display: flex;
