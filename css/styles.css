@@ -46,6 +46,10 @@ letter-spacing: 0.02em;
 /* SLATE */
 color: #434455;
 }
+.header-adress:is(:hover,:focus)
+{
+    color: #404BBF;
+}
 
 .header-tel {
 font-weight: 400;
@@ -56,6 +60,7 @@ letter-spacing: 0.02em;
 /* SLATE */
 color: #434455;
 }
+
 
 .commercial {
 font-weight: 700;
