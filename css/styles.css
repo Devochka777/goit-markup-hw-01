@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  background: #E5E5E5;
 }
 
 /*----------------------------------------------------------HEADER-------------*/
@@ -63,7 +64,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 /*--------------------------------COMMERCIAL------------------------------*/
-.commercial-title {
+.commercial {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -93,6 +94,7 @@ background: #404BBF;
 .peculiarities-list {
 }
 .peculiarities-item {
+    
 }
 .peculiarities-subtitle {
 font-weight: 500;
