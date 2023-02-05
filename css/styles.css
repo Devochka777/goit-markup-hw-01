@@ -216,12 +216,14 @@ padding: 0px;
 }
 .footer-text {
     
+    position: absolute;
+width: 264px;
+height: 72px;
+left: 156px;
+top: 2418px;
+
     font-size: 16px;
     line-height: 1.5;
     /* or 150% */
-    
     letter-spacing: 0.02em;
-    
-    /* CORNFLOWER */
-    
     color: #E7E9FC;
