@@ -25,7 +25,7 @@ padding: 0px;
     /* NAVY BLUE */
     color: #2E2F42;
 }
-.header-link:is(:hover,:focus){
+.header-link-list:is(:hover,:focus){
     color:#404BBF; 
 }
 .header-item {
