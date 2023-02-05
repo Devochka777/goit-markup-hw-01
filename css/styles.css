@@ -95,12 +95,14 @@ gap: 10px;
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-
-
 }
+
 .btn:is(:hover,:focus)
 {
 background: #404BBF;
+}
+.btn{
+    cursor: pointer;
 }
 /*------------------------------PECULISRITIES--------------------*/
 .peculiarities-list {
