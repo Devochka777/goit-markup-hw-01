@@ -101,7 +101,6 @@ border-radius: 4px;
 {
 background: #404BBF;
 }
-
 /*------------------------------PECULISRITIES--------------------*/
 .peculiarities-list {
 }
@@ -196,12 +195,7 @@ color: #434455;
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer{
-    position: absolute;
-width: 1440px;
-height: 310px;
-left: 107px;
-top: 2299px;
-    background: #2E2F42
+    
 }
 .footer-logo {
 display: flex;
