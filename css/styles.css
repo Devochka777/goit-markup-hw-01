@@ -92,7 +92,8 @@ padding: 16px 32px;
 gap: 10px;
 /* IRIS */
 background: #4D5AE5;
-
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 
 }
 .btn:is(:hover,:focus)
@@ -149,6 +150,17 @@ color: #2E2F42;
 
 }
 .team-subtitle {
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
 }
 .team-list {
 }
@@ -157,8 +169,28 @@ color: #2E2F42;
 .team-foto {
 }
 .team-surname {
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
 }
 .team-text {
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer{
@@ -171,7 +203,7 @@ align-items: flex-start;
 padding: 0px;
 }
 .footer-text {
-
+    background: #2E2F42
 font-size: 16px;
 line-height: 1.5;
 /* or 150% */
