@@ -1,6 +1,9 @@
 
 :root{
-    --main-title-color:
+    --main-title-color: #2E2F42
+    --second-title-color:#ffffff
+    --title-text-color:#434455
+    --main-btn-color:#ffffff
 }
 
 body {
@@ -52,7 +55,7 @@ line-height: 1.5;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
 /* SLATE */
-color: #434455;
+color:var (--title-text-color,#434455)
 }
 .header-adress:is(:hover,:focus)
 {
@@ -66,7 +69,7 @@ line-height: 1.5;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
 /* SLATE */
-color: #434455;
+color: var (--title-text-color,#434455)
 }
 /*--------------------------------COMMERCIAL------------------------------*/
 .commercial {
@@ -76,7 +79,7 @@ line-height: 1.07;
 /* or 107% */
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color:var (--second-title-color, #FFFFFF);
 }
 
 
@@ -89,7 +92,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 
-color: #FFFFFF;
+color: var(--main-btn-color, #FFFFFF);
 
 display: flex;
 flex-direction: row;
@@ -125,7 +128,7 @@ line-height: 1.2;
 /* identical to box height, or 120% */
 letter-spacing: 0.02em;
 /* NAVY BLUE */
-color: #2E2F42;
+color:var(--main-title-color, #2E2F42);
 }
 .peculiarities-text {
 
@@ -150,7 +153,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 /* NAVY BLUE */
-color: #2E2F42;
+color: var(--main-title-color, #2E2F42);
 }
 
 .boing-list {
@@ -172,7 +175,7 @@ text-transform: capitalize;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--main-title-color, #2E2F42);
 }
 .team-list {
 }
@@ -190,7 +193,7 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--main-title-color, #2E2F42);
 }
 .team-text {
 font-size: 16px;
