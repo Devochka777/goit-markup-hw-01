@@ -1,3 +1,8 @@
+
+:root{
+    --main-title-color:
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -201,13 +206,13 @@ color: #434455;
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer {
-    position: absolute;
+position: absolute;
 width: 1440px;
 height: 310px;
 left: 107px;
 top: 2299px;
 
-background-color: #2E2F42;;
+background-color: #2E2F42;
 
 }
 .footer-logo {
