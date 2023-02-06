@@ -3,6 +3,7 @@
     --main-title-color: #2E2F42
     --second-title-color: #ffffff
     --main-btn-color:#ffffff
+    --title-text-color:#434455
 }
 
 body {
@@ -78,7 +79,7 @@ line-height: 1.07;
 /* or 107% */
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color:var(--second-title-color,#FFFFFF);
 }
 
 
@@ -91,7 +92,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 
-color: #FFFFFF;
+color:var(--main-btn-color, #FFFFFF);
 
 display: flex;
 flex-direction: row;
@@ -136,7 +137,7 @@ line-height: 1.5;
 /* or 150% */
 letter-spacing: 0.02em;
 /* SLATE */
-color: #434455;
+color:var(--title-text-color, #434455);
 }
 /*------------------------------------------BOING-----------------------*/
 .boing{
@@ -204,7 +205,7 @@ letter-spacing: 0.02em;
 
 /* SLATE */
 
-color: #434455;
+color:var (--title-text-color,#434455);
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer {
