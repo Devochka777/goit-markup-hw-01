@@ -1,8 +1,8 @@
 
 :root{
-    --main-title-color: tomato;
+    --main-title-color: #2E2F42;
     --second-title-color: #ffffff;
-    --main-btn-color:#ffffff;
+    --main-btn-color: tomato;
     --title-text-color:#434455;
 }
 
@@ -205,7 +205,7 @@ letter-spacing: 0.02em;
 
 /* SLATE */
 
-color:var (--title-text-color);
+color:var (--title-text-color,#434455);
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer {
