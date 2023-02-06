@@ -1,9 +1,10 @@
 
 :root{
-    --main-subtitle-color: tomato;
+    --main-title-color: #2E2F42;
     --second-title-color: #ffffff;
     --main-btn-color:#ffffff;
     --title-text-color:#434455;
+    --accent-color:#4D5AE5;
 }
 
 body {
@@ -128,7 +129,7 @@ line-height: 1.2;
 /* identical to box height, or 120% */
 letter-spacing: 0.02em;
 /* NAVY BLUE */
-color:var(--main-subtitle-color);
+color:var(--main-title-color);
 }
 .peculiarities-text {
 
@@ -153,7 +154,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 /* NAVY BLUE */
-color:var(--main-subtitle-color);
+color:var(--main-title-color);
 }
 
 .boing-list {
@@ -175,7 +176,7 @@ text-transform: capitalize;
 
 /* NAVY BLUE */
 
-color: var(--main-subtitle-color);
+color: var(--main-title-color);
 }
 .team-list {
 }
@@ -193,7 +194,7 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: var(--main-subtitle-color);
+color: var(--main-title-color);
 }
 .team-text {
 font-size: 16px;
