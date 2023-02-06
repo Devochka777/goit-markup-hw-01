@@ -1,8 +1,7 @@
 
 :root{
     --main-title-color: #2E2F42
-    --second-title-color:#ffffff
-    --title-text-color:#434455
+    --second-title-color: #ffffff
     --main-btn-color:#ffffff
 }
 
@@ -55,7 +54,7 @@ line-height: 1.5;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
 /* SLATE */
-color:var (--title-text-color,#434455)
+color: #434455;
 }
 .header-adress:is(:hover,:focus)
 {
@@ -69,7 +68,7 @@ line-height: 1.5;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
 /* SLATE */
-color: var (--title-text-color,#434455)
+color: #434455;
 }
 /*--------------------------------COMMERCIAL------------------------------*/
 .commercial {
@@ -79,7 +78,7 @@ line-height: 1.07;
 /* or 107% */
 text-align: center;
 letter-spacing: 0.02em;
-color:var (--second-title-color, #FFFFFF);
+color: #FFFFFF;
 }
 
 
@@ -92,7 +91,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 
-color: var(--main-btn-color, #FFFFFF);
+color: #FFFFFF;
 
 display: flex;
 flex-direction: row;
