@@ -1,9 +1,9 @@
 
 :root{
-    --main-title-color: #2E2F42
-    --second-title-color: #ffffff
-    --main-btn-color:tomato
-    --title-text-color:#434455
+    --main-title-color: tomato;
+    --second-title-color: #ffffff;
+    --main-btn-color:#ffffff;
+    --title-text-color:#434455;
 }
 
 body {
