@@ -107,10 +107,8 @@ color: #FFFFFF;
     cursor:pointer
 }   
 
-.btn:hover{color: #404BBF ;}
-.btn:focus{color: #404BBF ;}
-
-
+.btn:is(:hover,:focus)
+{color:#404BBF;}
 
 /*------------------------------PECULISRITIES--------------------*/
 .peculiarities-list {
