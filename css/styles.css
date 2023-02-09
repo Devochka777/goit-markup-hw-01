@@ -2,7 +2,7 @@
 :root{
     --main-title-color: #2E2F42;
     --second-title-color: #ffffff;
-   
+    --main-btn-color:#ffffff;
     --title-text-color:#434455;
     --accent-color:#4D5AE5;
 }
@@ -93,7 +93,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 
-
+color:var(--main-btn-color);
 
 display: flex;
 flex-direction: row;
