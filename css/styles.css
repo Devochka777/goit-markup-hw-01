@@ -108,7 +108,7 @@ color: #FFFFFF;
 }   
 
 .btn:is(:hover,:focus)
-{color:#404BBF;}
+{background-color:#404BBF;}
 
 /*------------------------------PECULISRITIES--------------------*/
 .peculiarities-list {
