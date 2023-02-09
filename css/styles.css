@@ -79,6 +79,7 @@ color:#ffffff;
 
 
 .btn {
+    font-family: inherit;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -88,13 +89,15 @@ align-items: center;
 letter-spacing: 0.04em;
 
 color:#4D5AE5;
-cursor:pointer
+
 }
 
-
+.btn {
+    cursor:pointer
+}   
 
 .btn:is(:hover,:focus)
-background:  #404BBF;
+background: #404BBF;
 
 /*------------------------------PECULISRITIES--------------------*/
 .peculiarities-list {
