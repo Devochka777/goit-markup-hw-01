@@ -33,10 +33,7 @@ padding: 0px;
     /* NAVY BLUE */
     color: #2E2F42;
 }
-.header-list .header-link:is(:hover,:focus)
-{
-    color:#404BBF; 
-}
+.header-list .header-link:hover(color:#404BBF)
 
 .header-contacts {
 }
