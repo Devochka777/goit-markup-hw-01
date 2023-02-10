@@ -33,7 +33,7 @@ padding: 0px;
     /* NAVY BLUE */
     color: #2E2F42;
 }
-.header-link:is(:hover,:focus)
+.header-list .header-link:is(:hover,:focus)
 {
     color:#404BBF; 
 }
@@ -104,7 +104,7 @@ color: #FFFFFF;
 }
 
 .btn {
-    
+    cursor:pointer
 }   
 
 .btn:is(:hover,:focus)
