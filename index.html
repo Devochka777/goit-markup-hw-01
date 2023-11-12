@@ -4,35 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/stylrs.css" />
   </head>
   <body>
     <!------------------------------------Header------------------------>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="page-header">
+      <nav class="page-nav">
+        <a class="link logo" href="./index.html"
+          >Web<span class="accent">Studio</span></a>
+        <ul class="menu list">
+          <li class="menu item">
+            <a class="menu-link link" href="./index.html">Studio</a>
+          </li>
+          <li class="menu item"><a class="menu-link link" href="">Portfolio</a></li>
+          <li class="menu item"><a class="menu-link link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="adress list">
+          <li class="adress item">
+            <a class="adress-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="adress item">
+            <a class="adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <!----------------------------------- Effective Solutions------- -->
       <section>
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="">Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
       </section>
       <!----------------------------------Advantages---------------------->
       <section>
-        <h2>Advantages</h2>
-        <ul>
+        <h2 class="title">Advantages</h2>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -66,7 +85,7 @@
       <!---------------------------------- --Our Team --------------------->
       <section>
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/employees/mark.img.jpg"
@@ -109,10 +128,77 @@
           </li>
         </ul>
       </section>
+      <!-----------------------------------Portfolio---------------------------->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/Our Portfolio/bank_app.jpg"
+              alt="Banking"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Our Portfolio/qr_kod.jpg"
+              alt="qr_kod"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/Our Portfolio/monitor.jpg"
+              alt="monitor"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Our Portfolio/car.jpg"
+              alt="car"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/Our Portfolio/telehpone.jpg"
+              alt="telehpone"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/Our Portfolio/woman.jpg"
+              alt="woman"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!---------------------------------------- Footer------------------>
+
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <Studio class="logo" href="./index.html">Web<span class="accent-footer">Studio</span></a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
