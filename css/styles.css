@@ -52,6 +52,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: var(--SLATE, #434455);
+  font-style: normal;
 }
 .main-title {
   color: var(--WHITE, #fff);
