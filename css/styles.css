@@ -36,7 +36,7 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.adress {
+.adress-list {
   /* Body */
   font-style: normal;
   font-size: 16px;
@@ -52,7 +52,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: var(--SLATE, #434455);
-  font-style: normal;
 }
 .main-title {
   color: var(--WHITE, #fff);
