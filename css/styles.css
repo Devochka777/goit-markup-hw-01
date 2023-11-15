@@ -87,7 +87,7 @@ button:focus {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .section-our-team {
-  background: var(#f4f4fd);
+  background-color: #f4f4fd;
 }
 .team-list {
   background-color: #ffffff;
