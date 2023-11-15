@@ -113,7 +113,7 @@ button:focus {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.2; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -149,6 +149,9 @@ button:focus {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+}
+.main-footer {
+  background: var(--NAVY-BLUE, #2e2f42);
 }
 .text-portfolio {
   /* Body */
