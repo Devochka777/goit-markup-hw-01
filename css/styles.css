@@ -46,7 +46,7 @@ body {
   background-color: #ffffff;
   color: var(--SLATE, #434455);
 }
-.adress-link {
+.address-link {
   /* Body */
   color: var(--SLATE, #434455);
   font-size: 16px;
@@ -54,11 +54,11 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.adress {
+.address {
   font-style: normal;
 }
-.adress-link:hover,
-.adress-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 .main-title {
