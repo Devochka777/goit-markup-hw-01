@@ -83,6 +83,9 @@ button:hover,
 buuton:focus {
   background: var(--OCEAN, #404bbf);
 }
+.section {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
 .main-advantages {
   color: var(--NAVY-BLUE, #2e2f42);
   /* Header 3 */
