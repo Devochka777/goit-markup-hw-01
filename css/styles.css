@@ -86,8 +86,11 @@ button:focus {
 .section {
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.section-Our-Team {
+.section-our-team {
   background: var(#f4f4fd);
+}
+.team-list {
+  background-color: #ffffff;
 }
 .main-advantages {
   color: var(--NAVY-BLUE, #2e2f42);
