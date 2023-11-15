@@ -113,7 +113,7 @@ button:focus {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -122,7 +122,7 @@ button:focus {
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1/2; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
 .text-team {
@@ -138,7 +138,7 @@ button:focus {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1/11; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
