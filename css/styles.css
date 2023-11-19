@@ -38,6 +38,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/* ------------------------------------Header---------------------- */
 .page-header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
@@ -45,14 +46,11 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
-  padding-left: 144px;
 }
 .header-container {
   display: flex;
 }
-.link {
-  margin-right: 76px;
-}
+
 .menu-list {
   display: flex;
   gap: 40px;
@@ -65,12 +63,12 @@ img {
 /* ---------------------------------Первая секция------------------ */
 .section-solutions {
   height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .main-title-solutions {
   max-width: 496px;
   margin: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 .main-button {
   display: block;
@@ -114,6 +112,7 @@ ul {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
