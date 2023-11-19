@@ -18,19 +18,7 @@ ol {
 img {
   display: block;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -83,20 +71,28 @@ img {
   cursor: pointer;
 }
 /* -------------------------------Вторая секция------------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.basic-advantages {
+  margin-bottom: 8px;
+}
 .section-advantages {
   background: #fff;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-. .main-advantages-title {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.text-advantages {
-  width: 264px;
-  margin-right: auto;
-  margin-bottom: 32px;
-  padding-top: 8px;
-}
 .list-advantages {
   display: flex;
   gap: 24px;
@@ -210,6 +206,10 @@ button:focus {
 }
 .text-advantages {
   /* Body */
+  width: 264px;
+  margin-right: auto;
+  margin-bottom: 32px;
+  padding-top: 8px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
