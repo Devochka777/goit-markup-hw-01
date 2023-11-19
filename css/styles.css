@@ -39,7 +39,6 @@ img {
   margin-right: auto;
 }
 .page-header {
-  width: 1158px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
