@@ -49,8 +49,6 @@ img {
 }
 .header-container {
   display: flex;
-  width: 1440px;
-  height: 72px;
 }
 .link {
   margin-right: 76px;
@@ -118,8 +116,7 @@ ul {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding-top: 24px 0;
-  padding-bottom: 24px 0;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
