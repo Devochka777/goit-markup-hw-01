@@ -34,7 +34,7 @@ img {
 .container {
   width: 1158px;
   padding-left: 15px;
-  padding-bottom: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -76,7 +76,7 @@ img {
   padding-bottom: 48px;
 }
 .main-button {
-  display: block;
+  display: flex;
   width: 169px;
   height: 56px;
   margin: auto;
