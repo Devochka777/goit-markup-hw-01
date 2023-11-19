@@ -59,10 +59,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.team-iten {
-  padding-top: 24px 0;
-  padding-bottom: 24px 0;
-}
+
 .address-list {
   display: flex;
   gap: 40px;
@@ -121,6 +118,8 @@ ul {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-top: 24px 0;
+  padding-bottom: 24px 0;
 }
 
 .menu-link:hover,
