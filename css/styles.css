@@ -34,9 +34,12 @@ img {
 .container {
   width: 1158px;
   height: 72px;
+  padding-left: 15px;
+  padding-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-
+}
+.page-header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
@@ -55,13 +58,11 @@ img {
 }
 .menu-list {
   display: flex;
-  margin-right: 40px;
+  column-gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.menu-list :last-child {
-  margin-right: 0px;
-}
+
 .address-list {
   display: flex;
   column-gap: 40px;
@@ -82,7 +83,6 @@ img {
   margin: auto;
   margin-top: 48px;
   margin-bottom: 188px;
-  padding: 24px, 0px;
 }
 .list {
   list-style-type: none;
