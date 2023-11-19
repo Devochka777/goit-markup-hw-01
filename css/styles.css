@@ -40,12 +40,23 @@ img {
 }
 .page-nav {
   display: flex;
-  width: 1128;
-  justify-content: space-between;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+}
+.link {
+  margin-right: 76px;
 }
 .menu-list {
   display: flex;
-  column-gap: 40;
+  column-gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.address-list {
+  display: flex;
+  column-gap: 40px;
 }
 .list {
   list-style-type: none;
@@ -208,6 +219,9 @@ button:focus {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+.section-portfolio {
+  background: #fff;
 }
 .text-footer {
   color: var(--CLOUD, #f4f4fd);
