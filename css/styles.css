@@ -57,14 +57,15 @@ img {
 }
 .menu-list {
   display: flex;
-  column-gap: 40px;
-  padding-top: 24px 0;
-  padding-bottom: 24px 0;
+  gap: 40px;
 }
-
+.team-iten {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .section-solutions {
   height: 600px;
