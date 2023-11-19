@@ -60,8 +60,8 @@ img {
   gap: 40px;
 }
 .team-iten {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 24px 0;
+  padding-bottom: 24px 0;
 }
 .address-list {
   display: flex;
