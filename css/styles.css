@@ -62,13 +62,14 @@ img {
   display: flex;
   gap: 40px;
 }
+/* ---------------------------------Первая секция------------------ */
 .section-solutions {
   height: 600px;
 }
 .main-title-solutions {
   max-width: 496px;
   margin: auto;
-  padding: 188px 0 188px;
+  padding: 188px 0;
 }
 .main-button {
   display: block;
