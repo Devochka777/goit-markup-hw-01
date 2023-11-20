@@ -100,25 +100,25 @@ img {
 }
 /* ---------------------------------Третья секция с фото--------------------- */
 .section-our-team {
-}
-.container-our-team {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: var(--CLOUD, #f4f4fd);
-  gap: 24px;
+}
+.container {
+  height: 732px;
 }
 .team-employees {
   display: flex;
   width: 162px;
   height: 40px;
   margin-bottom: 72px;
+  padding-bottom: 72px;
   padding-top: 120px;
   padding-left: 639px;
   padding-right: 639px;
 }
 .team-list {
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 
 .list {
