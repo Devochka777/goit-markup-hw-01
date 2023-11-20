@@ -98,6 +98,29 @@ img {
   display: flex;
   gap: 24px;
 }
+/* ---------------------------------Третья секция с фото--------------------- */
+.section-our-team {
+}
+.container-our-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: var(--CLOUD, #f4f4fd);
+  gap: 24px;
+}
+.team-employees {
+  display: flex;
+  width: 162px;
+  height: 40px;
+  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-left: 639px;
+  padding-right: 639px;
+}
+.team-list {
+  display: flex;
+  gap: 40px;
+}
+
 .list {
   list-style-type: none;
 }
