@@ -20,11 +20,11 @@ img {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 /* ------------------------------------Header---------------------- */
 .page-header {
@@ -183,8 +183,9 @@ img {
 }
 .logo-link {
   display: inline-block;
-  margin-bottom: 17.5px;
+
   margin-left: 156px;
+  margin-bottom: 16px;
 }
 .list {
   list-style-type: none;
