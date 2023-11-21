@@ -106,6 +106,10 @@ img {
 .container {
   height: 732px;
 }
+.container-name-employees {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .team-employees {
   display: flex;
   width: 162px;
@@ -135,14 +139,16 @@ img {
 }
 .member-team-name {
   display: flex;
+  text-align: center;
   width: 134px;
   height: 24px;
   margin-bottom: 4px;
 }
 .text-team-specialization {
   display: flex;
+  text-align: center;
   margin-top: 4px;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 
   width: 128px;
   height: 24px;
