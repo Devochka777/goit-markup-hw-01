@@ -140,6 +140,7 @@ img {
 .member-team-name {
   display: flex;
   text-align: center;
+  margin-bottom: 8px;
   width: 134px;
   height: 24px;
   margin-bottom: 4px;
