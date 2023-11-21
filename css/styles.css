@@ -20,7 +20,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -34,6 +33,7 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .header-container {
   display: flex;
@@ -103,21 +103,14 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container {
-  height: 732px;
-}
+
 .container-name-employees {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .team-employees {
-  display: flex;
-  width: 162px;
-  height: 40px;
+  text-align: center;
   margin-bottom: 72px;
-  padding-bottom: 72px;
-  padding-top: 120px;
-  padding-left: 639px;
 }
 .team-list {
   display: flex;
@@ -154,10 +147,9 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container {
-  height: 3300px;
-}
+
 .portfolio-title {
+  text-align: center;
   margin-bottom: 72px;
 }
 .list-portfolio-list {
@@ -178,9 +170,7 @@ img {
   border-top: none;
 }
 /* ---------------------------------------------Footer---------------------------------- */
-.container {
-  display: inline-block;
-}
+
 .logo-link {
   display: inline-block;
 
