@@ -147,11 +147,11 @@ img {
 .text-team-specialization {
   display: flex;
   text-align: center;
-  margin-top: 4px;
   margin-bottom: 8px;
-
-  width: 128px;
-  height: 24px;
+  margin-left: 16px;
+  margin-right: 24px;
+  margin-left: 20px;
+  margin-right: 24px;
 }
 .list {
   list-style-type: none;
