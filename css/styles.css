@@ -98,7 +98,7 @@ img {
   display: flex;
   gap: 24px;
 }
-/* ---------------------------------Третья секция с фото--------------------- */
+/* ---------------------------------Третья секция с фото Our Team--------------------- */
 .section-our-team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -142,7 +142,30 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
-/* ---------------------------------------Четвертая секция--------------------- */
+.list-icon-team-link {
+  width: 100%;
+  height: 100%;
+  fill: #4d5ae5;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.list-icon-team {
+  display: flex;
+}
+.list-icon-team-item {
+  width: 40px;
+  height: 40px;
+  margin-left: 24px;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+.team-list-icon {
+  fill: #f4f4fd;
+}
+/* ---------------------------------------Четвертая секция Portfolio--------------------- */
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -176,6 +199,9 @@ img {
 
   margin-left: 156px;
   margin-bottom: 16px;
+}
+.logo-icon {
+  stroke: #f4f4fd;
 }
 .list {
   list-style-type: none;
