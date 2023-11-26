@@ -397,11 +397,11 @@ button:focus {
   margin-left: 156px;
 }
 .container-footer {
+  margin-right: 120px;
 }
 .container-social {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .text-media {
   font-family: Roboto;
