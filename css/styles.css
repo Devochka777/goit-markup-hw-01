@@ -386,6 +386,10 @@ button:focus {
   background: #fff;
 }
 /* -----------------------------------Footer------------------------------ */
+.footer-logo {
+  align-items: baseline;
+  margin-right: 120px;
+}
 .text-footer {
   color: var(--CLOUD, #f4f4fd);
   /* Body */
@@ -399,7 +403,6 @@ button:focus {
 
 .footer-icon {
   display: flex;
-  margin-right: 120px;
 }
 
 .list-icon-footer-link {
@@ -430,10 +433,7 @@ button:focus {
   width: 40px;
   height: 40px;
 }
-.footer-icon-list {
-  align-items: baseline;
-  margin-right: 120px;
-}
+
 .text-media {
   font-family: Roboto;
   font-size: 16px;
