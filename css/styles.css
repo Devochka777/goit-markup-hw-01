@@ -396,17 +396,12 @@ button:focus {
   max-width: 264px;
   margin-left: 156px;
 }
-.container-social {
+
+.footer-icon {
   display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
-.container-footer {
-  margin-right: 120px;
-}
-.container-footer-social {
-  display: flex;
-}
+
 .list-icon-footer-link {
   width: 100%;
   height: 100%;
