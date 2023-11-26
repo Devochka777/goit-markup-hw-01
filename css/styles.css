@@ -241,7 +241,10 @@ img {
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom: 164px;
-  overflow: auto;
+  overflow: hidden;
+}
+.list-portfolio-list:hover .overlay {
+  transform: translateY(0);
 }
 
 /* ---------------------------------------------Footer---------------------------------- */
