@@ -203,8 +203,7 @@ img {
 /* ---------------------------------------------Footer---------------------------------- */
 
 .logo-link {
-  display: inline-block;
-
+  display: flex;
   margin-left: 156px;
   margin-bottom: 16px;
 }
@@ -386,6 +385,7 @@ button:focus {
 .section-portfolio {
   background: #fff;
 }
+/* -----------------------------------Footer------------------------------ */
 .text-footer {
   color: var(--CLOUD, #f4f4fd);
   /* Body */
@@ -395,4 +395,20 @@ button:focus {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin-left: 156px;
+}
+.container-footer {
+}
+.container-social {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.text-media {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
