@@ -239,6 +239,9 @@ img {
 .list-portfolio-list:hover .text-overlay {
   transform: translateY(0);
 }
+.list-portfolio-list:hover .portfolio-iten {
+  transform: translateY(0);
+}
 
 /* ---------------------------------------------Footer---------------------------------- */
 
