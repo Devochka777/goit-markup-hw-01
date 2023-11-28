@@ -44,7 +44,7 @@ img {
   color: #404bbf;
   position: relative;
 }
-.link-link.current::after {
+.menu-link-link.current::after {
   content: '';
   position: absolute;
   left: 0;
