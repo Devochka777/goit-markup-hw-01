@@ -51,9 +51,9 @@ img {
   bottom: -1px;
   display: block;
   width: 100%;
-  height: ;
-  border-radius: ;
-  background-color: ;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
 }
 
 .menu-link {
