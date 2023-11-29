@@ -100,8 +100,11 @@ img {
 }
 .hero {
   background-size: cover;
-  background-image: linear-gradient
-    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7), url('../images/hero/dg.jpg'));
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7),
+    url('../images/hero/dg.jpg')
+  );
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -381,7 +384,7 @@ button:focus {
   background: var(--OCEAN, #404bbf);
 }
 .section {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background-color: var(--NAVY-BLUE, #2e2f42);
 }
 .section-our-team {
   background-color: #f4f4fd;
