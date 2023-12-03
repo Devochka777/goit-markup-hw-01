@@ -596,6 +596,8 @@ button:focus {
   transform: translate(-50%, -50%);
   width: 8px;
   height: 8px;
+  stroke: #4d5ae5;
+  transition: stroke 250ms linear;
 }
 
 .review-form-description {
@@ -619,4 +621,30 @@ button:focus {
   border: 1px solid var(--IRIS, #4d5ae5);
   background-color: transparent;
   padding-left: 38px;
+}
+.review-form-input-wrapper {
+  position: relative;
+}
+.review-form-input-icon {
+  position: absolute;
+  top: 50%;
+  left: 11px;
+  transform: translateY(-50%);
+}
+.review-form-input:focus + .review-form-input-icon {
+  fill: #4d5ae5;
+}
+
+.review-form-field-wrapper {
+  margin-bottom: 8px;
+}
+.review-form-field-label {
+  display: block;
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.04em;
+  color: var(--LIGHT-SLATE, #8e8f99);
 }
