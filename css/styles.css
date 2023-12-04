@@ -634,6 +634,9 @@ button:focus {
 .review-form-input:focus + .review-form-input-icon {
   fill: #4d5ae5;
 }
+.review-form-chekbox-wrapper {
+  margin-bottom: 24px;
+}
 
 .review-form-field-wrapper {
   margin-bottom: 8px;
@@ -661,7 +664,40 @@ button:focus {
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.04em;
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  resize: none;
 }
 .review-form-comment::placeholder {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
+.review-form-own-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.review-form-own-checkbox:checked
+  + .review-form-own-checkbox-label
+  > .review-form-own-checkbox {
+  fill: var(--OCEAN, #404bbf);
+}
+.review-form-own-checkbox-icon {
+  fill: #f4f4fd;
+  opacity: 0;
+}
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  .review-form-own-checkbox-icon {
+  opacity: 1;
+}
+.review-form-checkbox:focus
+  + .review-form-checkbox-label
+  > .review-form-own-checkbox {
+  outline: 2px solid;
 }
