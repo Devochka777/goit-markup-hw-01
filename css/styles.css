@@ -662,7 +662,7 @@ button:focus {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .review-form-field-label {
   display: block;
@@ -721,8 +721,6 @@ button:focus {
   + .review-form-own-checkbox-label
   > .review-form-own-checkbox {
   background-color: var(--OCEAN, #404bbf);
-  border: none;
-  fill: #f4f4fd;
 }
 .review-form-own-checkbox-icon {
   fill: #f4f4fd;
@@ -741,8 +739,16 @@ button:focus {
   > .review-form-own-checkbox {
   outline: 2px solid;
 }
+.texteria {
+  margin-bottom: 16px;
+}
+.privacy-policy-text {
+  color: #4d5ae5;
+}
 .review-form-submit-btn {
   display: block;
+  align-items: center;
+  justify-content: center;
   min-width: 169px;
   height: 56px;
   display: inline-flex;
