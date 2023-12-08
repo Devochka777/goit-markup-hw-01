@@ -745,10 +745,8 @@ button:focus {
 .privacy-policy-text {
   color: #4d5ae5;
 }
-.review-form-submit-btn {
+.review-form-submit-btn-backdroup {
   display: block;
-  align-items: center;
-  justify-content: center;
   min-width: 169px;
   height: 56px;
   display: inline-flex;
