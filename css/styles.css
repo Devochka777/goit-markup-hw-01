@@ -724,12 +724,10 @@ button:focus {
 }
 .review-form-own-checkbox-icon {
   fill: #f4f4fd;
-  opacity: 0;
 }
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   .review-form-own-checkbox-icon {
-  opacity: 1;
   background-color: var(--OCEAN, #404bbf);
   border: none;
   fill: #f4f4fd;
@@ -745,11 +743,10 @@ button:focus {
 .privacy-policy-text {
   color: #4d5ae5;
 }
-.review-form-submit-btn-backdroup {
+.review-form-submit-btn {
   display: block;
   min-width: 169px;
   height: 56px;
-  display: inline-flex;
   margin: 16px 32px;
   align-items: flex-start;
   gap: 10px;
