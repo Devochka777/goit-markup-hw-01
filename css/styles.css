@@ -739,7 +739,7 @@ button:focus {
   > .review-form-own-checkbox {
   outline: 2px solid;
 }
-.texteria {
+.texteria-wrapper {
   margin-bottom: 16px;
 }
 .privacy-policy-text {
